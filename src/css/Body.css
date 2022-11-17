@@ -1,0 +1,99 @@
+.section-heading{
+    text-align: center;
+}
+
+.section-heading h4 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF5757;
+    text-shadow: 2px 2px dimgray;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.section-heading h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fed266;
+    text-shadow: 2px 2px dimgray;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+.section-heading em {
+    color: #5271FF;
+}
+.aboutdetails{
+    text-align: center;
+    line-height: 2.0;
+    font-size: 19px;
+    padding: 0 10cm;
+    
+  }
+
+.container {
+	position: relative;
+	width: 1000px;
+	height: 448px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+    margin:auto;
+}
+
+.container::after {
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: inset 0 0 10px 15px #FFF;
+}
+
+.container img {
+	width: 150%;
+}
+
+.column-a {
+    display: block;
+    text-align: center;
+}
+
+.column-b {
+    padding: 0 10cm;
+    display: inline-block;
+    margin: 0;
+    
+}
+.column-b p{
+    font-size: 20px;
+    font-style: italic;
+    margin: 0;
+    width: auto;
+    
+}
+
+.team_image {
+
+}
+
+.team_name{
+    font-size:0.9em;;
+    padding: 0 10;
+    
+}
+
+.team_name h4 {
+    margin: 0;
+}
+
+.team_name h6 {
+    margin: 0;
+}
+
+.team_name em{
+    font-size: 25px;
+}
