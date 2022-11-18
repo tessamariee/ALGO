@@ -34,7 +34,7 @@
     display: flex;
     margin: auto;
     max-width: 75%;
-    
+    margin-bottom: 2%;
   }
 
 .container {
@@ -76,7 +76,7 @@
     margin: 0;
     width: auto;
     line-height: 2.0;
-    
+    font-weight: 500;
 }
 
 .team_image {
@@ -97,6 +97,7 @@
 
 .team_name h6 {
     margin: 0;
+    padding-bottom: 5%;
 }
 
 .team_name em{
