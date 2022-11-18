@@ -15,7 +15,6 @@ function Header() {
         <a href='#' className='cv-btn'>SUMALI SA ALGOFILIPINO</a>
       </div>
       
-
     </div>
     <Body/>
     </>
