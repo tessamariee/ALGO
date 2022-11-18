@@ -1,5 +1,7 @@
 .section-heading{
     text-align: center;
+    margin: auto;
+    max-width: 75%;
 }
 
 .section-heading h4 {
@@ -30,6 +32,8 @@
     font-size: 19px;
     padding: 0 10;
     display: flex;
+    margin: auto;
+    max-width: 75%;
     
   }
 
@@ -71,6 +75,7 @@
     font-style: italic;
     margin: 0;
     width: auto;
+    line-height: 2.0;
     
 }
 
