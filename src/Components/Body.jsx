@@ -25,7 +25,9 @@ function Body(){
                 </div>
                 </div>
                 <div className="section-heading">
+                    <div  className='ourteam'>
                     <h4>Our <em>Team</em></h4>
+                    </div>
                     <div className="column-a">
                     <div className='team_image'>
                     <img src ={member1} />

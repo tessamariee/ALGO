@@ -45,6 +45,10 @@
     
 }
 
+.ourteam {
+    padding-top: 3%;
+}
+
 .container::after {
 	position: absolute;
 	content: '';
@@ -68,7 +72,6 @@
     padding: 0 10;
     display: inline-block;
     margin: 0;
-    
 }
 .column-b p{
     font-size: 20px;
@@ -98,6 +101,7 @@
 .team_name h6 {
     margin: 0;
     padding-bottom: 5%;
+    padding-top: 1%;
 }
 
 .team_name em{
