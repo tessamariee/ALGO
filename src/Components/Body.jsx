@@ -4,6 +4,7 @@ import Cards from './Cards';
 import member1 from '../images/member-quote-1.png';
 import member2 from '../images/member-quote-2.png';
 import '../css/Body.css';
+
 function Body(){
     return(
         <>

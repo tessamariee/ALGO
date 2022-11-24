@@ -4,8 +4,11 @@ import firstlogo from "../images/Events/olympic.jpg";
 import secondlogo from "../images/Events/event-seminar.png";
 import thirdlogo from  "../images/Events/event-training.png";
 import fourthlogo from "../images/Events/event-workshop.png";
+import ContactUs from "./ContactUs";
+
 function Cards(){
     return(
+        <>
         <div classname='cards'>
             <h1>RECENT EVENTS</h1>
             <div className="cards__container">
@@ -40,9 +43,12 @@ function Cards(){
                     
                 </ul>
             </div>
-
+        
             </div>
         </div>
+        
+        <ContactUs/>
+        </>
     )
 
 }
